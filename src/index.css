@@ -1,1 +1,27 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bebas Neue", sans-serif;
+  --font-heading: "Syne", sans-serif;
+  --font-body: "Space Grotesk", sans-serif;
+
+  --color-blush: #f9a8d4;
+  --color-blush-light: #fce7f3;
+  --color-blush-dark: #ec4899;
+  --color-cream: #fdf6f0;
+  --color-lavender: #c4b5fd;
+  --color-lavender-light: #ede9fe;
+  --color-peach: #fed7aa;
+  --color-sage: #bbf7d0;
+  --color-charcoal: #1c1917;
+  --color-warm-gray: #78716c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--color-blush);
+  color: var(--color-charcoal);
+}
