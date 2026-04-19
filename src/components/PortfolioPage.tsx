@@ -94,9 +94,9 @@ export default function PortfolioPage() {
                   <span className='mt-3 text-xs tracking-wide text-cream/60'>Click to view ✦</span>
                 </div>
 
-                {/* Tag */}
+                {/* Category badge */}
                 <span className='absolute top-3 right-3 px-3 py-1 rounded-full bg-white/80 backdrop-blur-sm text-xs font-body text-charcoal tracking-wide'>
-                  {project.tag}
+                  {project.category}
                 </span>
               </div>
             ))}

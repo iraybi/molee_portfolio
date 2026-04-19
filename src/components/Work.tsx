@@ -53,7 +53,7 @@ export default function Work() {
               </div>
 
               <span className='absolute top-3 right-3 px-3 py-1 rounded-full bg-white/80 backdrop-blur-sm text-xs font-body text-charcoal tracking-wide'>
-                {project.tag}
+                {project.category}
               </span>
             </div>
           ))}
