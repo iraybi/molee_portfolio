@@ -1,6 +1,12 @@
+import DecorativeShape from './DecorativeShape';
+
 export default function Hero() {
   return (
     <section className='min-h-screen flex flex-col items-center justify-center px-6 pt-20 bg-cream relative overflow-hidden'>
+      {/* Decorative shapes */}
+      <DecorativeShape className='absolute -top-40 -left-40 w-[900px] h-auto text-blush/[0.07] rotate-12' />
+      <DecorativeShape className='absolute -bottom-60 -right-40 w-[800px] h-auto text-lavender/[0.08] -rotate-45 scale-x-[-1]' />
+
       {/* Decorative blobs */}
       <div className='absolute top-20 left-10 w-72 h-72 bg-blush/20 rounded-full blur-3xl' />
       <div className='absolute bottom-20 right-10 w-96 h-96 bg-lavender/20 rounded-full blur-3xl' />

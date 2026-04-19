@@ -1,3 +1,5 @@
+import DecorativeShape from './DecorativeShape';
+
 const services = [
   {
     icon: '🎨',
@@ -27,8 +29,10 @@ const services = [
 
 export default function Services() {
   return (
-    <section id='services' className='py-24 px-6 bg-cream'>
-      <div className='max-w-7xl mx-auto'>
+    <section id='services' className='py-24 px-6 bg-cream relative overflow-hidden'>
+      <DecorativeShape className='absolute top-10 -left-80 w-[700px] h-auto text-peach/[0.08] -rotate-12' />
+
+      <div className='max-w-7xl mx-auto relative z-10'>
         <div className='text-center mb-16'>
           <p className='font-body text-sm tracking-[0.3em] uppercase text-blush-dark mb-3'>
             ✦ What I Do

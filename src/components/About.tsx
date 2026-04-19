@@ -3,12 +3,10 @@ export default function About() {
     <section id='about' className='py-24 px-6 bg-white'>
       <div className='max-w-7xl mx-auto'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
-          {/* Image placeholder */}
+          {/* Image */}
           <div className='relative'>
-            <div className='aspect-[3/4] rounded-3xl bg-gradient-to-br from-blush-light via-lavender-light to-peach/30 overflow-hidden'>
-              <div className='absolute inset-0 flex items-center justify-center'>
-                <span className='font-display text-8xl text-blush/30 tracking-wider'>MOLEE</span>
-              </div>
+            <div className='aspect-[3/4] rounded-3xl overflow-hidden'>
+              <img src='/images/molee.png' alt='Molee' className='w-full h-full object-cover' />
             </div>
             {/* Floating card */}
             <div className='absolute -bottom-6 -right-6 bg-white rounded-2xl p-5 shadow-xl shadow-blush/10 border border-blush/10'>
