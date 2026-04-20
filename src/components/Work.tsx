@@ -37,9 +37,6 @@ export default function Work() {
                     (e.target as HTMLImageElement).style.display = 'none';
                   }}
                 />
-                <div className='absolute inset-0 flex items-center justify-center opacity-20'>
-                  <div className='w-24 h-24 border-2 border-charcoal/30 rounded-full' />
-                </div>
               </div>
 
               <div className='absolute inset-0 bg-charcoal/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-cream'>

@@ -78,9 +78,6 @@ export default function PortfolioPage() {
                       (e.target as HTMLImageElement).style.display = 'none';
                     }}
                   />
-                  <div className='absolute inset-0 flex items-center justify-center opacity-20'>
-                    <div className='w-24 h-24 border-2 border-charcoal/30 rounded-full' />
-                  </div>
                 </div>
 
                 {/* Hover overlay */}
@@ -99,7 +96,7 @@ export default function PortfolioPage() {
                   <div className='absolute inset-0 flex items-center justify-center pointer-events-none group-hover:opacity-0 transition-opacity duration-300'>
                     <div className='w-20 h-20 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center shadow-lg'>
                       <svg
-                        className='w-9 h-9 text-charcoal ml-1'
+                        className='w-9 h-9 text-[#82756a] ml-0'
                         viewBox='0 0 24 24'
                         fill='currentColor'>
                         <path d='M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5z' />

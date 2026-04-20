@@ -62,14 +62,6 @@ export default function ProjectModal({ item, onClose }: Props) {
               }}
             />
           )}
-          {/* Fallback decorative element */}
-          {!item.video && (
-            <div className='absolute inset-0 flex items-center justify-center'>
-              <span className='font-display text-6xl md:text-8xl text-white/20 tracking-wider'>
-                {item.title.split(' ')[0]?.toUpperCase()}
-              </span>
-            </div>
-          )}
         </div>
 
         {/* Content */}
