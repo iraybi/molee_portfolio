@@ -22,7 +22,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop */}
-        <ul className='hidden md:flex items-center gap-8 font-body text-sm tracking-wide text-warm-gray'>
+        <ul className='hidden md:flex items-center gap-8 font-body text-sm tracking-wide text-warm-gray absolute left-1/2 -translate-x-1/2'>
           {navItems.map((item) => (
             <li key={item.label}>
               {item.href.startsWith('/') && !item.href.startsWith('/#') ? (
