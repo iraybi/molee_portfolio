@@ -94,6 +94,20 @@ export default function PortfolioPage() {
                   <span className='mt-3 text-xs tracking-wide text-cream/60'>Click to view ✦</span>
                 </div>
 
+                {/* Play button for video items */}
+                {project.video && (
+                  <div className='absolute inset-0 flex items-center justify-center pointer-events-none group-hover:opacity-0 transition-opacity duration-300'>
+                    <div className='w-20 h-20 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center shadow-lg'>
+                      <svg
+                        className='w-9 h-9 text-charcoal ml-1'
+                        viewBox='0 0 24 24'
+                        fill='currentColor'>
+                        <path d='M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5z' />
+                      </svg>
+                    </div>
+                  </div>
+                )}
+
                 {/* Category badge */}
                 <span className='absolute top-3 right-3 px-3 py-1 rounded-full bg-white/80 backdrop-blur-sm text-xs font-body text-charcoal tracking-wide'>
                   {project.category}
