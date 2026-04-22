@@ -6,7 +6,20 @@ import ProjectModal from './ProjectModal';
 
 export default function Work() {
   const [selected, setSelected] = useState<PortfolioItem | null>(null);
-  const featured = portfolioItems.slice(0, 6);
+  const featuredIds = [
+    'gp-5g-motion',
+    'apex-boshonto',
+    'diploma-chilled-coffee',
+    'dse-lost-friends',
+    'lays-new-flavors',
+    'hw-free-maid',
+    'restaurant-posters',
+    'war-promo',
+    'frutzzy-concept',
+  ];
+  const featured = featuredIds
+    .map((id) => portfolioItems.find((p) => p.id === id))
+    .filter((p): p is PortfolioItem => !!p);
 
   return (
     <section id='work' className='py-24 px-6 bg-white'>
