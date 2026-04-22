@@ -14,7 +14,7 @@ export default function Work() {
     'lays-new-flavors',
     'hw-free-maid',
     'restaurant-posters',
-    'war-promo',
+    // 'war-promo',
     'frutzzy-concept',
   ];
   const featured = featuredIds
