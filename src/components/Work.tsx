@@ -7,6 +7,7 @@ import ProjectModal from './ProjectModal';
 export default function Work() {
   const [selected, setSelected] = useState<PortfolioItem | null>(null);
   const featuredIds = [
+    'gp-1-bangladesh-1-internet',
     'gp-5g-motion',
     'apex-boshonto',
     'diploma-chilled-coffee',
@@ -14,7 +15,7 @@ export default function Work() {
     'lays-new-flavors',
     'hw-free-maid',
     'restaurant-posters',
-    // 'war-promo',
+    'war-promo',
     'frutzzy-concept',
     'diploma-droolecious-desert',
   ];

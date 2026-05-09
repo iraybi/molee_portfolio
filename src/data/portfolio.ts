@@ -170,7 +170,7 @@ export const portfolioItems: PortfolioItem[] = [
     aspect: 'aspect-[9/16]',
     color: 'from-peach/30 to-blush-light',
     tag: '9:16',
-    tools: ['After Effects'],
+    tools: ['After Effects', 'Photoshop'],
   },
   {
     id: 'gp-1-bangladesh-1-internet',
@@ -183,7 +183,7 @@ export const portfolioItems: PortfolioItem[] = [
     aspect: 'aspect-[4/5]',
     color: 'from-lavender/30 to-blush-light',
     tag: 'Motion',
-    tools: ['After Effects', 'Photoshop'],
+    tools: ['After Effects', 'Photoshop', 'Illustrator'],
   },
   {
     id: 'gp-5g-motion',
@@ -196,7 +196,7 @@ export const portfolioItems: PortfolioItem[] = [
     aspect: 'aspect-[9/16]',
     color: 'from-blush/30 to-lavender-light',
     tag: '9:16',
-    tools: ['After Effects', 'Photoshop'],
+    tools: ['After Effects', 'Photoshop', 'Illustrator'],
   },
   {
     id: 'diploma-iftar',
@@ -235,7 +235,7 @@ export const portfolioItems: PortfolioItem[] = [
     aspect: 'aspect-[4/5]',
     color: 'from-peach/30 to-blush-light',
     tag: 'Motion',
-    tools: ['After Effects', 'Photoshop'],
+    tools: ['After Effects', 'Photoshop', 'Illustrator'],
   },
   {
     id: 'gp-15gb',
