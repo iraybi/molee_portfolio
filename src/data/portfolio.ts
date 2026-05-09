@@ -37,18 +37,7 @@ export const categories: PortfolioCategory[] = [
 
 export const portfolioItems: PortfolioItem[] = [
   // ── Social Media ──────────────────────────────────────
-  {
-    id: 'gp-5g-social',
-    title: 'GP 5G Campaign',
-    category: 'Social Media',
-    description:
-      "A bold social media story design study for Grameenphone's 5G launch — striking visuals optimized for the 9:16 vertical format with dynamic typography and vibrant gradients.",
-    image: '/portfolio/social-media/GP-5G-design-study.png',
-    aspect: 'aspect-[9/16]',
-    color: 'from-blush/30 to-lavender-light',
-    tag: '9:16',
-    tools: ['Photoshop', 'Illustrator'],
-  },
+
   {
     id: 'apex-boshonto',
     title: 'Apex Boshonto',
@@ -72,6 +61,18 @@ export const portfolioItems: PortfolioItem[] = [
     color: 'from-sage/30 to-cream',
     tag: '4:5',
     tools: ['Photoshop'],
+  },
+  {
+    id: 'gp-5g-social',
+    title: 'GP 5G Campaign',
+    category: 'Social Media',
+    description:
+      "A bold social media story design study for Grameenphone's 5G launch — striking visuals optimized for the 9:16 vertical format with dynamic typography and vibrant gradients.",
+    image: '/portfolio/social-media/GP-5G-design-study.png',
+    aspect: 'aspect-[9/16]',
+    color: 'from-blush/30 to-lavender-light',
+    tag: '9:16',
+    tools: ['Photoshop', 'Illustrator'],
   },
   {
     id: 'dse-lost-friends',
