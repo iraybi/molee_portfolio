@@ -180,7 +180,7 @@ export const portfolioItems: PortfolioItem[] = [
       'A powerful motion campaign for Grameenphone\'s "1 Bangladesh 1 Internet" initiative — unifying visuals celebrating digital connectivity across the nation with bold brand storytelling.',
     image: '/portfolio/motion/grameenphone---1-bangladesh-1_internet-campeign-thumb.png',
     video: '/portfolio/motion/grameenphone_1_bangladesh_1_internet_campeign.mp4',
-    aspect: 'aspect-[4/5]',
+    aspect: 'aspect-[16/9]',
     color: 'from-lavender/30 to-blush-light',
     tag: 'Motion',
     tools: ['After Effects', 'Photoshop', 'Illustrator'],
@@ -198,18 +198,19 @@ export const portfolioItems: PortfolioItem[] = [
     tag: '9:16',
     tools: ['After Effects', 'Photoshop', 'Illustrator'],
   },
+
   {
-    id: 'diploma-iftar',
-    title: 'Diploma Sharing Iftar',
+    id: 'diploma-droolecious-desert',
+    title: 'Diploma Droolecious Desert',
     category: 'Motion Design',
     description:
-      'A heartwarming Ramadan motion graphic for Diploma brand — capturing the spirit of sharing Iftar with family, featuring smooth transitions and warm golden tones.',
-    image: '/portfolio/motion/diploma-sharing-iftar-thumb.jpg',
-    video: '/portfolio/motion/Diploma Sharing Iftar.mp4',
+      "A mouth-watering motion design for Diploma's Droolecious Desert campaign — rich dessert visuals with smooth animations and indulgent brand styling.",
+    image: '/portfolio/motion/diploma---droolecious-desert-thumb.png',
+    video: '/portfolio/motion/diploma-droolecious-desert.mp4',
     aspect: 'aspect-[4/5]',
     color: 'from-peach/30 to-blush-light',
     tag: 'Motion',
-    tools: ['After Effects', 'Photoshop'],
+    tools: ['After Effects', 'Photoshop', 'Illustrator'],
   },
   {
     id: 'diploma-boishakh',
@@ -225,19 +226,6 @@ export const portfolioItems: PortfolioItem[] = [
     tools: ['After Effects', 'Photoshop'],
   },
   {
-    id: 'diploma-droolecious-desert',
-    title: 'Diploma Droolecious Desert',
-    category: 'Motion Design',
-    description:
-      "A mouth-watering motion design for Diploma's Droolecious Desert campaign — rich dessert visuals with smooth animations and indulgent brand styling.",
-    image: '/portfolio/motion/diploma---droolecious-desert-thumb.png',
-    video: '/portfolio/motion/diploma-droolecious-desert.mp4',
-    aspect: 'aspect-[4/5]',
-    color: 'from-peach/30 to-blush-light',
-    tag: 'Motion',
-    tools: ['After Effects', 'Photoshop', 'Illustrator'],
-  },
-  {
     id: 'gp-15gb',
     title: 'GP 15 GB Free',
     category: 'Motion Design',
@@ -250,7 +238,6 @@ export const portfolioItems: PortfolioItem[] = [
     tag: 'Motion',
     tools: ['After Effects'],
   },
-
   {
     id: 'gp-run',
     title: 'GP Run Campaign',
