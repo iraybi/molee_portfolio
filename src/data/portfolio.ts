@@ -160,6 +160,45 @@ export const portfolioItems: PortfolioItem[] = [
 
   // ── Motion Design ─────────────────────────────────────
   {
+    id: 'lays-new-flavors',
+    title: "Lay's New Flavors",
+    category: 'Motion Design',
+    description:
+      "A crunchy motion design study for Lay's new flavor launch — bold product reveals with satisfying animation and snack-worthy color palette.",
+    image: '/portfolio/motion/lays-new-flavors---study-thumb.jpg',
+    video: '/portfolio/motion/lays-new-flavors - study.mp4',
+    aspect: 'aspect-[9/16]',
+    color: 'from-peach/30 to-blush-light',
+    tag: '9:16',
+    tools: ['After Effects'],
+  },
+  {
+    id: 'gp-1-bangladesh-1-internet',
+    title: 'GP 1 Bangladesh 1 Internet',
+    category: 'Motion Design',
+    description:
+      'A powerful motion campaign for Grameenphone\'s "1 Bangladesh 1 Internet" initiative — unifying visuals celebrating digital connectivity across the nation with bold brand storytelling.',
+    image: '/portfolio/motion/grameenphone---1-bangladesh-1_internet-campeign-thumb.png',
+    video: '/portfolio/motion/grameenphone_1_bangladesh_1_internet_campeign.mp4',
+    aspect: 'aspect-[4/5]',
+    color: 'from-lavender/30 to-blush-light',
+    tag: 'Motion',
+    tools: ['After Effects', 'Photoshop'],
+  },
+  {
+    id: 'gp-5g-motion',
+    title: 'GP 5G Motion',
+    category: 'Motion Design',
+    description:
+      'A futuristic motion design study for Grameenphone 5G — sleek animations showcasing speed and connectivity with high-tech visual language.',
+    image: '/portfolio/motion/gp-5g---study-thumb.jpg',
+    video: '/portfolio/motion/GP-5g - study.mp4',
+    aspect: 'aspect-[9/16]',
+    color: 'from-blush/30 to-lavender-light',
+    tag: '9:16',
+    tools: ['After Effects', 'Photoshop'],
+  },
+  {
     id: 'diploma-iftar',
     title: 'Diploma Sharing Iftar',
     category: 'Motion Design',
@@ -190,7 +229,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Diploma Droolecious Desert',
     category: 'Motion Design',
     description:
-      'A mouth-watering motion design for Diploma\'s Droolecious Desert campaign — rich dessert visuals with smooth animations and indulgent brand styling.',
+      "A mouth-watering motion design for Diploma's Droolecious Desert campaign — rich dessert visuals with smooth animations and indulgent brand styling.",
     image: '/portfolio/motion/diploma---droolecious-desert-thumb.png',
     video: '/portfolio/motion/diploma-droolecious-desert.mp4',
     aspect: 'aspect-[4/5]',
@@ -211,19 +250,7 @@ export const portfolioItems: PortfolioItem[] = [
     tag: 'Motion',
     tools: ['After Effects'],
   },
-  {
-    id: 'gp-5g-motion',
-    title: 'GP 5G Motion',
-    category: 'Motion Design',
-    description:
-      'A futuristic motion design study for Grameenphone 5G — sleek animations showcasing speed and connectivity with high-tech visual language.',
-    image: '/portfolio/motion/gp-5g---study-thumb.jpg',
-    video: '/portfolio/motion/GP-5g - study.mp4',
-    aspect: 'aspect-[9/16]',
-    color: 'from-blush/30 to-lavender-light',
-    tag: '9:16',
-    tools: ['After Effects', 'Photoshop'],
-  },
+
   {
     id: 'gp-run',
     title: 'GP Run Campaign',
@@ -249,19 +276,6 @@ export const portfolioItems: PortfolioItem[] = [
     color: 'from-sage/30 to-peach/20',
     tag: 'Motion',
     tools: ['After Effects', 'Photoshop'],
-  },
-  {
-    id: 'lays-new-flavors',
-    title: "Lay's New Flavors",
-    category: 'Motion Design',
-    description:
-      "A crunchy motion design study for Lay's new flavor launch — bold product reveals with satisfying animation and snack-worthy color palette.",
-    image: '/portfolio/motion/lays-new-flavors---study-thumb.jpg',
-    video: '/portfolio/motion/lays-new-flavors - study.mp4',
-    aspect: 'aspect-[9/16]',
-    color: 'from-peach/30 to-blush-light',
-    tag: '9:16',
-    tools: ['After Effects'],
   },
 
   // ── Print Design ──────────────────────────────────────
