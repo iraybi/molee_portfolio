@@ -13,7 +13,6 @@ export default function Work() {
     'gp-5g-motion',
     'diploma-droolecious-desert',
     'apex-boshonto',
-    'diploma-chilled-coffee',
     'dse-lost-friends',
     'lays-new-flavors',
     'war-promo',
