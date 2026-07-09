@@ -41,11 +41,6 @@ export default function Contact() {
             WhatsApp ↗
           </a>
         </div>
-
-        <div className='flex flex-col items-center gap-2 mt-8'>
-          <p className='font-body text-xs text-warm-gray tracking-wide'>mahfuza.molee@gmail.com</p>
-          <p className='font-body text-xs text-warm-gray tracking-wide'>mahfuza.molee@grey.com</p>
-        </div>
       </div>
     </section>
   );
