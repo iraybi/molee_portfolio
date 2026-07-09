@@ -270,7 +270,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Turaag Active Goal Fest',
     category: 'Motion Design',
     description:
-      'A high-energy motion design for Turaag Active\'s Goal Fest Reminder — bold illustrated football visuals with celebratory animation and vibrant red-and-white brand energy.',
+      "A high-energy motion design for Turaag Active's Goal Fest Reminder — bold illustrated football visuals with celebratory animation and vibrant red-and-white brand energy.",
     image: '/portfolio/motion/turaag-active---goal-fest-reminder-thumb.jpg',
     video: '/portfolio/motion/turaag_active-goal-fest-reminder.mp4',
     aspect: 'aspect-[4/5]',
