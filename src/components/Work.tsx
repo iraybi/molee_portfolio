@@ -7,6 +7,8 @@ import ProjectModal from './ProjectModal';
 export default function Work() {
   const [selected, setSelected] = useState<PortfolioItem | null>(null);
   const featuredIds = [
+    'turaag-active-goal-fest',
+    'turaag-active-relive-glory',
     'gp-1-bangladesh-1-internet',
     'gp-5g-motion',
     'diploma-droolecious-desert',

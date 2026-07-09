@@ -265,6 +265,32 @@ export const portfolioItems: PortfolioItem[] = [
     tag: 'Motion',
     tools: ['After Effects', 'Photoshop'],
   },
+  {
+    id: 'turaag-active-goal-fest',
+    title: 'Turaag Active Goal Fest',
+    category: 'Motion Design',
+    description:
+      'A high-energy motion design for Turaag Active\'s Goal Fest Reminder — bold illustrated football visuals with celebratory animation and vibrant red-and-white brand energy.',
+    image: '/portfolio/motion/turaag-active---goal-fest-reminder-thumb.jpg',
+    video: '/portfolio/motion/turaag_active-goal-fest-reminder.mp4',
+    aspect: 'aspect-[4/5]',
+    color: 'from-blush/30 to-peach/20',
+    tag: 'Motion',
+    tools: ['After Effects', 'Illustrator'],
+  },
+  {
+    id: 'turaag-active-relive-glory',
+    title: 'Turaag Active Relive the Glory',
+    category: 'Motion Design',
+    description:
+      'A dynamic teaser motion design for Turaag Active — reliving football glory with glitch-style effects, vivid colors and energetic player illustrations.',
+    image: '/portfolio/motion/turaag-active---relive-the-glory-teaser-thumb.jpg',
+    video: '/portfolio/motion/turaag_active-relive-the glory-teaser.mp4',
+    aspect: 'aspect-[4/5]',
+    color: 'from-sage/30 to-lavender-light',
+    tag: 'Motion',
+    tools: ['After Effects', 'Illustrator'],
+  },
 
   // ── Print Design ──────────────────────────────────────
   {
